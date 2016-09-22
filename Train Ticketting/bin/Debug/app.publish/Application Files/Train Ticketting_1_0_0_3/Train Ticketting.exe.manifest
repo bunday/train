@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Train Ticketting.exe" version="1.0.0.3" publicKeyToken="2e59a30469471de9" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Train Ticketting" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Train Ticketting.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Train Ticketting.exe" size="41912">
+      <assemblyIdentity name="Train Ticketting" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wcummpAX+uKb5zZeW8LTMTH6UEj0tHmlXbmIC4sBOnQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Train Ticketting.exe.config" size="567">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dP37Ko9B/wDzsA9wDDH16RPSNU6fTrbOIRTVsfTsRhg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="trainer.mdf" size="3211264" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/UQVEU/2YCuest8fwGdSxuqU2S3RvybDTRlFmsKOYJY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="trainer_log.ldf" size="802816" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nKsZujtdRj86OznPYkrF+xfkDuBPzcDUefMgnmARcWI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BUNDAY\Bundayy" issuerKeyHash="ad23cea93509bd3bec20a3f934e3e7939de013d1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>w5ryiqqGMhJ0G+zH5nzzHFe8iJaWaPmVfUuOdTW4kiI=</DigestValue></Reference></SignedInfo><SignatureValue>NcTQCWIpoo6laOXo4MUo3XEcBVCLe6DW8TI5LJhGOrzV8IgNP9hxIMUA4LfzLxOY6n2MkTNlA7vpi1pWy2kVtG+Wm4Y+oAjxnlW4LKjgwZKMucppu9O19+fY5wZq0BurEs8+Jl4kAkpQA5ezp/Nk8cgwU8983BeF/CdWc+/p+78=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>kiu4M609l5PKev7F1AbB6mDFIR+bkNv9Bgd2BoHeBDiTdL1c2kq2MdW5Lq9d2o2q4V4scalYFP9FIOMqSop1JntN+j195nR0z9v4OTF2EDALOW6kvPTbsTyKLK1ufGOlsKwfD4/Nxre4ysdd8mG/xLXPB8fW8hvxROsDEFNC/qM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2292b835758e4b7d95f968969688bc571cf37ce6c7ec1b74123286aa8af29ac3" Description="" Url=""><as:assemblyIdentity name="Train Ticketting.exe" version="1.0.0.3" publicKeyToken="2e59a30469471de9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BUNDAY\Bundayy</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+qOdyLceVFeLskvXEqJ8NoifRstZbyxDB4vsyKnyQkA=</DigestValue></Reference></SignedInfo><SignatureValue>jnzGdOgasmLIPFIsqiA8dA9AT+8dHbk8gnY+WC/Iv8GDC6lvzrzKUB6XL8/fM50vDjcCbXjGm7o0YrCmXnhqdVzh1NZHDrC6fz1jI8QWpM81L3WjseItYBzbArVh6cwxW8K/VoXaySAQsqgBW7NNr8Bn4H4aL3NwCPZMbtYf5xM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>kiu4M609l5PKev7F1AbB6mDFIR+bkNv9Bgd2BoHeBDiTdL1c2kq2MdW5Lq9d2o2q4V4scalYFP9FIOMqSop1JntN+j195nR0z9v4OTF2EDALOW6kvPTbsTyKLK1ufGOlsKwfD4/Nxre4ysdd8mG/xLXPB8fW8hvxROsDEFNC/qM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQSSuvOMm6OoBEF4P8RvszmjANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQgBVAE4ARABBAFkAXABCAHUAbgBkAGEAeQB5MB4XDTE2MDgyMDAwMTkzMFoXDTE3MDgyMDA2MTkzMFowJzElMCMGA1UEAx4cAEIAVQBOAEQAQQBZAFwAQgB1AG4AZABhAHkAeTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAkiu4M609l5PKev7F1AbB6mDFIR+bkNv9Bgd2BoHeBDiTdL1c2kq2MdW5Lq9d2o2q4V4scalYFP9FIOMqSop1JntN+j195nR0z9v4OTF2EDALOW6kvPTbsTyKLK1ufGOlsKwfD4/Nxre4ysdd8mG/xLXPB8fW8hvxROsDEFNC/qMCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBY9LgvXdzxdOKqglyevO4+CEnAVS078/T1WZMsQQeY+RfHxAXgAoBzDvrNrmfH116LM+UZj6277huPEJDzZgGnY7OSTI2kgMnnYKueHRbLvy2RKC5YO9MwkMtd3REJmHrQcsSUAXthrf/WPWXPLmPdPsb6MS2OeexD35yHehBvEQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
